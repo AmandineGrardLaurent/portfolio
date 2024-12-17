@@ -27,6 +27,7 @@ h3 {
 	border: 1px solid #faadc8;
 	border-radius: 1em;
 	width: 25%;
+	padding: 0.30em;
 	/* color: #f8c7d8; */
 }
 
@@ -37,7 +38,7 @@ h3 {
 	/* border: 1px solid #faadc8; */
 	border-radius: 2em;
 	padding: 1em;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+	box-shadow: #faadc8 0px 5px 13px 0px;
 }
 
 p {
@@ -46,4 +47,18 @@ p {
 
 .container-text {
 	margin: 2em;
+}
+
+span {
+	text-decoration: underline;
+	font-size: 2, 25em;
+}
+
+link:visited {
+	text-decoration: none;
+	color: black;
+}
+
+link {
+	color: black;
 }
