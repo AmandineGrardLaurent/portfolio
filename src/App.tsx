@@ -6,11 +6,11 @@ import croustiEats from "./videos/CroustiEats.mp4";
 function App() {
 	return (
 		<main className="container">
-			<h1>PortFolio Amandine Grard-Laurent (EN COURS DE CONSTRUCTION)</h1>
+			<h1>PortFolio Amandine Grard-Laurent (en cours de construction)</h1>
 			<div className="card">
 				<h2>
-					Retrouvez tous les projets depuis le début de ma formation (septembre
-					2024)
+					Retrouvez tous mes projets depuis le début de ma formation (septembre
+					2024), seule ou en équipe
 				</h2>
 
 				<section className="container-video">
@@ -34,8 +34,8 @@ function App() {
 								et qui propose en échange un service, un prêt d'objet ou encore
 								un don d'objet. On peut également voir les personnes qui
 								proposent directement un service. Là aussi on peut accéder à une
-								page un détaillée. On a la possibilité de faire une recherche
-								par catégorie sur les 2 pages, et une barre de recherche.
+								page détaillée. On a la possibilité de faire une recherche par
+								catégorie sur les 2 pages, et via une barre de recherche.
 							</p>
 							<p>
 								<span>Son évolution</span> : Je souhaite faire évoluer ce site

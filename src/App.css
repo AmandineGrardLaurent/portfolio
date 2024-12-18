@@ -5,7 +5,7 @@
 }
 
 .container {
-	background-color: #f8c7d8;
+	background-color: #f7cfdc;
 	padding: 3em;
 }
 
@@ -27,8 +27,13 @@ h3 {
 	border: 1px solid #faadc8;
 	border-radius: 1em;
 	width: 25%;
-	padding: 0.30em;
+	padding: 0.25em;
 	/* color: #f8c7d8; */
+}
+
+h2 {
+	font-size: 2em;
+	text-decoration: underline;
 }
 
 .card-video {
@@ -38,7 +43,7 @@ h3 {
 	/* border: 1px solid #faadc8; */
 	border-radius: 2em;
 	padding: 1em;
-	box-shadow: #faadc8 0px 5px 13px 0px;
+	box-shadow: #a9a7a7 0px 5px 13px 0px;
 }
 
 p {
@@ -61,4 +66,23 @@ link:visited {
 
 link {
 	color: black;
+}
+
+@media screen and (max-width: 768px) {
+	.card {
+		width: 80% auto;
+		padding: 5%;
+	}
+
+	.container {
+		width: 100%;
+	}
+	.container-text {
+		margin: 0em;
+	}
+	h3 {
+		width: 70%;
+		padding: 0em;
+		font-size: 1.75em;
+	}
 }
