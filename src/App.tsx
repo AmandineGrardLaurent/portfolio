@@ -1,108 +1,151 @@
 import "./App.css";
-import boarderLine from "./videos/BoarderLine.mp4";
-import coupDeMainLocal from "./videos/CoupDeMainLocal.mp4";
-import croustiEats from "./videos/CroustiEats.mp4";
+import CardVideo from "./components/cardVideo/CardVideo";
+import cards from "./assets/data/data.json";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT.pdf";
 
 function App() {
 	return (
-		<main className="container">
-			<h1>PortFolio Amandine Grard-Laurent (en cours de construction)</h1>
-			<div className="card">
-				<h2>
-					Retrouvez tous mes projets depuis le début de ma formation (septembre
-					2024), seule ou en équipe
-				</h2>
+		<div className="container-page">
+			<main>
+				<Navbar />
 
-				<section className="container-video">
-					<div className="card-video">
-						<h3>Coup de main local</h3>
-						<video width="90%" controls>
-							<source src={coupDeMainLocal} type="video/mp4" />
-						</video>
-						<div className="container-text">
-							<p>
-								<span>Le concept</span> : Ce site est basé sur l'entraide en
-								particulier au sein d'un quartier de Bordeaux.
-							</p>
-							<p>
-								<span>La composition</span> : On a accès à une page qui liste
-								les commerces, associations, services locaux..., ainsi on peut y
-								retrouver les coordonnées et l'adresse via une page détaillée.
-								Sur une seconde page on peut voir les annonces entre
-								particuliers qui recensent les recherches de services, comme par
-								exemple quelqu'un qui aurait besoin d'aide pour monter un meuble
-								et qui propose en échange un service, un prêt d'objet ou encore
-								un don d'objet. On peut également voir les personnes qui
-								proposent directement un service. Là aussi on peut accéder à une
-								page détaillée. On a la possibilité de faire une recherche par
-								catégorie sur les 2 pages, et via une barre de recherche.
-							</p>
-							<p>
-								<span>Son évolution</span> : Je souhaite faire évoluer ce site
-								afin que les utilisateurs puissent poster eux-même une annonce
-								ou bien contacter l'adimistrateur via un formulaire pour poster
-								une nouvelle annonce. Je souhaiterais également étendre à
-								plusieurs quartiers de Bordeaux.
-							</p>
-
-							<div className="link">
-								Lien Github :{"  "}
-								<a href="https://github.com/AmandineGrardLaurent/coup-de-main-local">
-									https://github.com/AmandineGrardLaurent/coup-de-main-local
-								</a>
+				<div className="container">
+					<section>
+						<div className="typewriter-container">
+							<div className="typewriter">
+								<h1>Amandine Grard-Laurent</h1>
+								<h2 className="title">DEVELOPPEUR WEB</h2>
 							</div>
 						</div>
-					</div>
+					</section>
+					<div className="container-profil">
+						<section className="about-container">
+							<h2>A PROPOS</h2>
+							<div>
+								<ul className="about-list">
+									<p className="text-profil">
+										Je suis actuellement en formation à la Wild Code School pour
+										devenir développeur web. Afin d'étendre mes connaissances et
+										mes compétences, je souhaite poursuivre ma formation en
+										alternance. Je suis à la recherche d'un contrat d'alternance
+										dans la région bordelaise pour une durée de 15 mois, au
+										rythme d'une semaine de formation pour trois semaines en
+										entreprise. Ce contrat débuterait au mois de mars 2025.
+									</p>
+									<li>Nom : Amandine Grard-Laurent</li>
+									<li>Localisation : Bordeaux (Parempuyre)</li>
+									<li>Email : a.grard.laurent08@gmail.com</li>
+									<li>Tél : 06 50 16 38 53</li>
+								</ul>
+							</div>
+							<a href={cvPDF} target="_self" rel="noopener noreferrer" download>
+								<button type="button">Télécharger le CV</button>
+							</a>
+						</section>
+						<section className="my_skills-container">
+							<h2>SKILLS</h2>
+							<ul>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor"
+										}
+										alt="logo typescript"
+										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor"
+										}
+										alt="logo css 3"
+										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor"
+										}
+										alt="logo javascript"
+										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor"
+										}
+										alt="logo react"
+										width="60"
+									/>
+								</li>{" "}
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor"
+										}
+										alt="logo html5"
+										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor"
+										}
+										alt="logo express"
+										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor"
+										}
+										alt="logo node js"
+										width="60"
+									/>
+								</li>
+							</ul>
+						</section>
+						<section className="my_projects-container">
+							<h2>MES PROJETS</h2>
+							<div className="container-video">
+								{cards.map((card) => (
+									<CardVideo card={card} key={card.title} />
+								))}
+							</div>
+						</section>
+						<section className="contact-container">
+							<h2>CONTACT</h2>
+							{/* <form>
+								<input type="email" placeholder="Votre email" />
+								<input type="text" placeholder="Votre nom" />
 
-					<div className="card-video">
-						<h3>Boarder Line</h3>
-						<video width="90%" controls>
-							<source src={boarderLine} type="video/mp4" />
-						</video>
-						<div className="container-text">
-							<p>
-								<span>Le concept</span> : Ce site recense différents jeux de
-								société spécialisés. Vous pouvez consulter le descriptif
-								détaillé de chaque jeux et les mettre dans vos favoris.
-							</p>
-							<p>
-								<span>La composition</span> : Il y a une page d'accueil où vous
-								retrouverez deux carrousels de jeux, un pour le top des jeux et
-								un autre qui propose une selection de jeux à découvrir pour les
-								personnes novices. Il y a également un page qui liste l'ensemble
-								des jeux que vous pouvez filtrer. Enfin il y a une page pour
-								afficher vos favoris et une page pour afficher le descriptif
-								complet des jeux. Pour finir vous avez une barre de recherche
-								pour rechercher un jeu.
-							</p>
-							<div className="link">
-								Lien Vercel :{"  "}
-								<a href="https://boarder-line-project.vercel.app/">
-									https://boarder-line-project.vercel.app/
-								</a>
-							</div>{" "}
-						</div>
-					</div>
-
-					<div className="card-video">
-						<h3>Crousti Eats</h3>
-						<video width="90%" controls>
-							<source src={croustiEats} type="video/mp4" />
-						</video>
-						<div className="container-text">
-							<p>
-								<div className="link">
-									Lien Github :{"  "}
-									<a href="https://github.com/AmandineGrardLaurent/CroustiEats">
-										https://github.com/AmandineGrardLaurent/CroustiEats
+								<textarea placeholder="Votre message" />
+								<button type="button">Contactez-moi</button>
+							</form> */}
+							<ul className="contact-list">
+								<li>Email : a.grard.laurent08@gmail.com</li>
+								<li>Tél : 06 50 16 38 53</li>
+								<li>
+									<a href="mailto:a.grard.laurent08@gmail.com">
+										<button type="button" className="button-mail">
+											Envoyez-moi un email : ici
+										</button>
 									</a>
-								</div>
-							</p>
-						</div>
+								</li>
+							</ul>
+						</section>
 					</div>
-				</section>
-			</div>
-		</main>
+				</div>
+			</main>
+			<Footer />
+		</div>
 	);
 }
 

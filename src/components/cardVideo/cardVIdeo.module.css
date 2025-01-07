@@ -1,0 +1,33 @@
+.cardVideo {
+	width: 80%;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px
+		1px 3px 1px;
+
+	color: black;
+	padding: 2em;
+	border-radius: 0.5em;
+	display: flex;
+	flex-direction: column;
+}
+
+.containerText p {
+	margin: 0.75em;
+}
+
+span {
+	text-decoration: underline;
+}
+
+.containerText {
+	width: 90%;
+}
+
+h3 {
+	font-size: 2rem;
+	color: var(--color-text-button);
+	text-align: start;
+	margin: 0 0 0.6em 0;
+	@media screen and (max-width: 768px) {
+		font-size: 1.7em;
+	}
+}
