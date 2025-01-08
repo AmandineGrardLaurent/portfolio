@@ -1,6 +1,16 @@
 import style from "./cardVIdeo.module.css";
 
-export default function CardVideo({ card }) {
+type CardType = {
+	title:string,
+		video:string,
+		concept: string,
+		composition: string,
+		evolution: string,
+		vercel: string,
+		github: string
+}
+
+export default function CardVideo({ card }: { card : CardType }) {
 	return (
 		<div className={style.cardVideo}>
 			<h3>{card.title}</h3>
