@@ -21,7 +21,7 @@ function App() {
 						</div>
 					</section>
 					<div className="container-profil">
-						<section className="about-container" name="about">
+						<section className="about-container" >
 							<h2>A PROPOS</h2>
 							<div>
 								<ul className="about-list">
@@ -71,7 +71,7 @@ function App() {
 								<button type="button">Télécharger le CV</button>
 							</a>
 						</section>
-						<section className="my_skills-container" name="skills">
+						<section className="my_skills-container">
 							<h2>SKILLS</h2>
 							<ul>
 								<li>
@@ -142,7 +142,7 @@ function App() {
 								</li>
 							</ul>
 						</section>
-						<section className="my_projects-container" name="projects">
+						<section className="my_projects-container">
 							<h2>MES PROJETS</h2>
 							<div className="container-video">
 								{cards.map((card) => (
@@ -150,7 +150,7 @@ function App() {
 								))}
 							</div>
 						</section>
-						<section className="contact-container" name="contact">
+						<section className="contact-container" >
 							<h2>CONTACT</h2>
 							<ul className="contact-list">
 								<li>Email : a.grard.laurent08@gmail.com</li>
