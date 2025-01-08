@@ -19,10 +19,13 @@ export default function CardVideo({ card }) {
 				</p>
 
 				<div className="link">
-					<p>Lien Github :{"  "}</p>
-					<a href={card.github}>{card.github}</a>
-					<p>Lien Vercel :{"  "}</p>
-					<a href={card.vercel}>{card.vercel}</a>
+					<p>
+						<span>Lien Github</span> : <a href={card.github}>{card.github}</a>
+					</p>
+
+					<p>
+						<span>Lien Vercel</span> : <a href={card.vercel}>{card.vercel}</a>
+					</p>
 				</div>
 			</div>
 		</div>

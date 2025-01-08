@@ -15,7 +15,7 @@
 		"composition": "Il y a une page d'accueil où vous retrouverez deux carrousels de jeux, un pour le top des jeux et un autre qui propose une selection de jeux à découvrir pour les personnes novices. Il y a également un page qui liste l'ensemble des jeux que vous pouvez filtrer. Enfin il y a une page pour afficher vos favoris et une page pour afficher le descriptif complet des jeux. Pour finir vous avez une barre de recherche pour rechercher un jeu.",
 		"evolution": "Je souhaite faire évoluer ce site afin que les utilisateurs puissent poster eux-même une annonce ou bien contacter l'adimistrateur via un formulaire pour poster une nouvelle annonce. Je souhaiterais également étendre à plusieurs quartiers de Bordeaux.",
 		"vercel": "https://boarder-line-project.vercel.app/",
-		"github": ""
+		"github": "https://github.com/AmandineGrardLaurent/Boarder_Line"
 	},
 	{
 		"title": "Crousti Eats",

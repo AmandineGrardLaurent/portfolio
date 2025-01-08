@@ -36,7 +36,7 @@
 	overflow: hidden;
 	white-space: nowrap;
 	position: relative;
-	animation: typing 3.5s steps(22);
+	animation: typing 3.2s steps(22);
 
 	@media screen and (max-width: 768px) {
 		font-size: 1.7em;
@@ -100,7 +100,7 @@
 	display: flex;
 	padding: 3em 0;
 	flex-direction: column;
-	gap: 4em;
+	gap: 3em;
 }
 
 .about-list {
@@ -113,12 +113,20 @@
 ul li {
 	text-decoration: none;
 	text-align: start;
-	font-size: 1.3em;
+	font-size: 1.6em;
+	@media screen and (max-width: 768px) {
+		font-size: 1em;
+	}
 }
 
 .text-profil {
 	font-size: 1.6em;
 	padding: 1em;
+	border: 2px solid var(--color-text-button);
+	border-radius: 1em;
+	@media screen and (max-width: 768px) {
+		font-size: 1em;
+	}
 }
 
 /* skills */
@@ -132,6 +140,7 @@ ul li {
 .my_skills-container ul {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 /* projets */
@@ -148,6 +157,12 @@ ul li {
 	gap: 2em;
 	align-items: flex-start;
 	align-items: center;
+}
+img {
+	width: 4em;
+	@media screen and (max-width: 768px) {
+		width: 2.2em;
+	}
 }
 
 /* contact */
@@ -186,10 +201,11 @@ button {
 	background-color: var(--color-text-button);
 	border: 1px solid var(--color-text-button);
 	border-radius: 1.5em;
-	width: 13em;
-	height: 3em;
+	width: 14em;
+	height: 2.3em;
 	color: white;
 	font-size: 1em;
+
 	@media screen and (max-width: 768px) {
 		width: auto;
 		height: 2em;
@@ -200,6 +216,23 @@ button:hover {
 	background-color: rgb(238, 96, 228);
 }
 
-a {
-	text-align: center;
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+	list-style: none;
+	align-items: center;
+	padding: 0;
+}
+
+span {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: var(--color-text-button);
+}
+
+a:visited {
+	color: var(--color-text-button);
 }

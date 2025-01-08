@@ -21,11 +21,35 @@ function App() {
 						</div>
 					</section>
 					<div className="container-profil">
-						<section className="about-container">
+						<section className="about-container" name="about">
 							<h2>A PROPOS</h2>
 							<div>
 								<ul className="about-list">
-									<p className="text-profil">
+									<li>
+										<span>Nom</span> : Amandine Grard-Laurent
+									</li>
+									<li>
+										<span>Localisation</span> : Bordeaux (Parempuyre)
+									</li>
+									<li>
+										<span>Email</span> : a.grard.laurent08@gmail.com
+									</li>
+									<li>
+										<span>Tél</span> : 06 50 16 38 53
+									</li>
+									<li>
+										<span>GitHub</span> :{" "}
+										<a href="https://github.com/AmandineGrardLaurent?tab=repositories">
+											https://github.com/AmandineGrardLaurent?tab=repositories
+										</a>
+									</li>
+									<li>
+										<span>LinkedIn</span> :{" "}
+										<a href="https://www.linkedin.com/in/amandine-grard-laurent-278440305/">
+											https://www.linkedin.com/in/amandine-grard-laurent-278440305/
+										</a>
+									</li>
+									<li className="text-profil">
 										Je suis actuellement en formation à la Wild Code School pour
 										devenir développeur web. Afin d'étendre mes connaissances et
 										mes compétences, je souhaite poursuivre ma formation en
@@ -33,18 +57,21 @@ function App() {
 										dans la région bordelaise pour une durée de 15 mois, au
 										rythme d'une semaine de formation pour trois semaines en
 										entreprise. Ce contrat débuterait au mois de mars 2025.
-									</p>
-									<li>Nom : Amandine Grard-Laurent</li>
-									<li>Localisation : Bordeaux (Parempuyre)</li>
-									<li>Email : a.grard.laurent08@gmail.com</li>
-									<li>Tél : 06 50 16 38 53</li>
+									</li>
+
+									<li className="text-profil">
+										Organisée, autonome, créative et déterminée je sais
+										m’adapter rapidement et efficacement à mon environnement
+										pour atteindre mon objectif. La curiosité pour moi est un
+										atout. L’esprit d’équipe est essentiel.
+									</li>
 								</ul>
 							</div>
 							<a href={cvPDF} target="_self" rel="noopener noreferrer" download>
 								<button type="button">Télécharger le CV</button>
 							</a>
 						</section>
-						<section className="my_skills-container">
+						<section className="my_skills-container" name="skills">
 							<h2>SKILLS</h2>
 							<ul>
 								<li>
@@ -53,7 +80,6 @@ function App() {
 											"https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor"
 										}
 										alt="logo typescript"
-										width="60"
 									/>
 								</li>
 								<li>
@@ -62,7 +88,6 @@ function App() {
 											"https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor"
 										}
 										alt="logo css 3"
-										width="60"
 									/>
 								</li>
 								<li>
@@ -71,7 +96,6 @@ function App() {
 											"https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor"
 										}
 										alt="logo javascript"
-										width="60"
 									/>
 								</li>
 								<li>
@@ -80,7 +104,6 @@ function App() {
 											"https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor"
 										}
 										alt="logo react"
-										width="60"
 									/>
 								</li>{" "}
 								<li>
@@ -89,16 +112,16 @@ function App() {
 											"https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor"
 										}
 										alt="logo html5"
-										width="60"
 									/>
 								</li>
+							</ul>
+							<ul>
 								<li>
 									<img
 										src={
 											"https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor"
 										}
 										alt="logo express"
-										width="60"
 									/>
 								</li>
 								<li>
@@ -107,12 +130,19 @@ function App() {
 											"https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor"
 										}
 										alt="logo node js"
-										width="60"
+									/>
+								</li>
+								<li>
+									<img
+										src={
+											"https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor"
+										}
+										alt="logo mysql"
 									/>
 								</li>
 							</ul>
 						</section>
-						<section className="my_projects-container">
+						<section className="my_projects-container" name="projects">
 							<h2>MES PROJETS</h2>
 							<div className="container-video">
 								{cards.map((card) => (
@@ -120,15 +150,8 @@ function App() {
 								))}
 							</div>
 						</section>
-						<section className="contact-container">
+						<section className="contact-container" name="contact">
 							<h2>CONTACT</h2>
-							{/* <form>
-								<input type="email" placeholder="Votre email" />
-								<input type="text" placeholder="Votre nom" />
-
-								<textarea placeholder="Votre message" />
-								<button type="button">Contactez-moi</button>
-							</form> */}
 							<ul className="contact-list">
 								<li>Email : a.grard.laurent08@gmail.com</li>
 								<li>Tél : 06 50 16 38 53</li>
