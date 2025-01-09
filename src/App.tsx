@@ -4,6 +4,7 @@ import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT.pdf";
+import coup from "./videos/CoupDeMainLocal.mp4";
 
 function App() {
 	return (
@@ -20,8 +21,17 @@ function App() {
 							</div>
 						</div>
 					</section>
+					<video width="90%" controls>
+						<source src={coup} type="video/mp4" />
+						<track
+							kind="captions"
+							src="captions.vtt"
+							srcLang="fr"
+							label="Français"
+						/>
+					</video>
 					<div className="container-profil">
-						<section className="about-container" >
+						<section className="about-container">
 							<h2>A PROPOS</h2>
 							<div>
 								<ul className="about-list">
@@ -150,7 +160,7 @@ function App() {
 								))}
 							</div>
 						</section>
-						<section className="contact-container" >
+						<section className="contact-container">
 							<h2>CONTACT</h2>
 							<ul className="contact-list">
 								<li>Email : a.grard.laurent08@gmail.com</li>
