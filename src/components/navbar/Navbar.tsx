@@ -12,23 +12,44 @@ export default function Navbar() {
 			/>
 			<ul className={style.navbarList}>
 				<li>
-					<Link to="about-container" smooth={true} duration={600} offset={-50}>
+					<Link
+						to="about-container
+					"
+						smooth={true}
+						duration={600}
+						offset={-50}
+					>
 						A PROPOS
 					</Link>{" "}
 				</li>
 				<li>
-					<Link to="my_skills-container" smooth={true} duration={600} offset={-50}>
+					<Link
+						to="my_skills-container"
+						smooth={true}
+						duration={600}
+						offset={-50}
+					>
 						SKILLS
 					</Link>{" "}
 				</li>
 				<li>
-					<Link to="my_projects-container" smooth={true} duration={600} offset={-50}>
+					<Link
+						to="my_projects-container"
+						smooth={true}
+						duration={600}
+						offset={-50}
+					>
 						PROJETS
 					</Link>{" "}
 				</li>
 				<li>
 					{" "}
-					<Link to="contact-container" smooth={true} duration={600} offset={-50}>
+					<Link
+						to="contact-container"
+						smooth={true}
+						duration={600}
+						offset={-50}
+					>
 						CONTACT
 					</Link>{" "}
 				</li>

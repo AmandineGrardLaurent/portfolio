@@ -4,7 +4,6 @@ import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT.pdf";
-import coup from "./videos/CoupDeMainLocal.mp4";
 
 function App() {
 	return (
