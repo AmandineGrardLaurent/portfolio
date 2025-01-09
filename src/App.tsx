@@ -21,15 +21,7 @@ function App() {
 							</div>
 						</div>
 					</section>
-					<video width="90%" controls>
-						<source src={coup} type="video/mp4" />
-						<track
-							kind="captions"
-							src="captions.vtt"
-							srcLang="fr"
-							label="Français"
-						/>
-					</video>
+
 					<div className="container-profil">
 						<section className="about-container">
 							<h2>A PROPOS</h2>
