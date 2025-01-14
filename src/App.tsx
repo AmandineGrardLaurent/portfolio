@@ -3,7 +3,7 @@ import CardVideo from "./components/cardVideo/CardVideo";
 import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT.pdf";
+import cvPDF from "./assets/pdf/cvAmandineGrardLaurent.pdf";
 
 function App() {
 	return (
@@ -146,9 +146,12 @@ function App() {
 						<section className="my_projects-container">
 							<h2>MES PROJETS</h2>
 							<div className="container-video">
-								{cards.map((card) => (
+								{/* {cards.map((card) => (
 									<CardVideo card={card} key={card.title} />
-								))}
+								))} */}
+								<CardVideo card={cards[0]} />
+								<CardVideo card={cards[1]} />
+								<CardVideo card={cards[2]} />
 							</div>
 						</section>
 						<section className="contact-container">
