@@ -14,7 +14,7 @@ export default function CardVideo({ card }: { card: CardType }) {
 	return (
 		<div className={style.cardVideo}>
 			<h3>{card.title}</h3>
-			<video width="90%" controls>
+			{/* <video width="90%" controls>
 				<source src={card.video} type="video/mp4" />
 				<track
 					kind="captions"
@@ -22,7 +22,7 @@ export default function CardVideo({ card }: { card: CardType }) {
 					srcLang="fr"
 					label="Français"
 				/>
-			</video>
+			</video> */}
 			<div className={style.containerText}>
 				<p>
 					<span>Le concept</span> : {card.concept}.

@@ -4,6 +4,7 @@ import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/cvAmandineGrardLaurent.pdf";
+import coupDeMainLocal from "./videos/CoupDeMainLocal.mp4";
 
 function App() {
 	return (
@@ -149,6 +150,15 @@ function App() {
 								{/* {cards.map((card) => (
 									<CardVideo card={card} key={card.title} />
 								))} */}
+								<video width="90%" controls>
+									<source src={coupDeMainLocal} type="video/mp4" />
+									<track
+										kind="captions"
+										src="captions.vtt"
+										srcLang="fr"
+										label="Français"
+									/>
+								</video>
 								<CardVideo card={cards[0]} />
 								<CardVideo card={cards[1]} />
 								<CardVideo card={cards[2]} />
