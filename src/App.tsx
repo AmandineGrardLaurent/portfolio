@@ -5,6 +5,8 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/cvAmandineGrardLaurent.pdf";
 import coupDeMainLocal from "./videos/CoupDeMainLocal.mp4";
+import boarderLine from "./videos/BoarderLine.mp4";
+import croustiEats from "./videos/CroustiEats.mp4";
 
 function App() {
 	return (
@@ -160,7 +162,25 @@ function App() {
 									/>
 								</video>
 								<CardVideo card={cards[0]} />
+								<video width="90%" controls>
+									<source src={boarderLine} type="video/mp4" />
+									<track
+										kind="captions"
+										src="captions.vtt"
+										srcLang="fr"
+										label="Français"
+									/>
+								</video>
 								<CardVideo card={cards[1]} />
+								<video width="90%" controls>
+									<source src={croustiEats} type="video/mp4" />
+									<track
+										kind="captions"
+										src="captions.vtt"
+										srcLang="fr"
+										label="Français"
+									/>
+								</video>
 								<CardVideo card={cards[2]} />
 							</div>
 						</section>
