@@ -4,9 +4,8 @@ import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/cvAmandineGrardLaurent.pdf";
-import coupDeMainLocal from "./videos/CoupDeMainLocal.mp4";
-import boarderLine from "./videos/BoarderLine.mp4";
-import croustiEats from "./videos/CroustiEats.mp4";
+import skill from "../src/assets/data/skills.json";
+import Skill from "./components/skill/Skill";
 
 function App() {
 	return (
@@ -78,110 +77,17 @@ function App() {
 						<section className="my_skills-container">
 							<h2>SKILLS</h2>
 							<ul>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor"
-										}
-										alt="logo typescript"
-									/>
-								</li>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor"
-										}
-										alt="logo css 3"
-									/>
-								</li>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor"
-										}
-										alt="logo javascript"
-									/>
-								</li>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor"
-										}
-										alt="logo react"
-									/>
-								</li>{" "}
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor"
-										}
-										alt="logo html5"
-									/>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor"
-										}
-										alt="logo express"
-									/>
-								</li>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor"
-										}
-										alt="logo node js"
-									/>
-								</li>
-								<li>
-									<img
-										src={
-											"https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor"
-										}
-										alt="logo mysql"
-									/>
-								</li>
+								{skill.map((skill) => (
+									<Skill skill={skill} key={skill.alt} />
+								))}
 							</ul>
 						</section>
 						<section className="my_projects-container">
 							<h2>MES PROJETS</h2>
 							<div className="container-video">
-								{/* {cards.map((card) => (
+								{cards.map((card) => (
 									<CardVideo card={card} key={card.title} />
-								))} */}
-								<video width="90%" controls>
-									<source src={coupDeMainLocal} type="video/mp4" />
-									<track
-										kind="captions"
-										src="captions.vtt"
-										srcLang="fr"
-										label="Français"
-									/>
-								</video>
-								<CardVideo card={cards[0]} />
-								<video width="90%" controls>
-									<source src={boarderLine} type="video/mp4" />
-									<track
-										kind="captions"
-										src="captions.vtt"
-										srcLang="fr"
-										label="Français"
-									/>
-								</video>
-								<CardVideo card={cards[1]} />
-								<video width="90%" controls>
-									<source src={croustiEats} type="video/mp4" />
-									<track
-										kind="captions"
-										src="captions.vtt"
-										srcLang="fr"
-										label="Français"
-									/>
-								</video>
-								<CardVideo card={cards[2]} />
+								))}
 							</div>
 						</section>
 						<section className="contact-container">

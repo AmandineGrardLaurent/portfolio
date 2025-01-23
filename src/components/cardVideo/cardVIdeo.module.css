@@ -29,9 +29,10 @@ span {
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 2.2rem;
 	color: var(--color-text-button);
 	text-align: start;
+	text-decoration: underline;
 	margin: 0 0 0.6em 0;
 	@media screen and (max-width: 768px) {
 		font-size: 1.5em;
