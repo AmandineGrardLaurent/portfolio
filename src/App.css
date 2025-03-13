@@ -1,238 +1,262 @@
-* {
-	margin: 0 0;
+/* variables */
 
-	font-family: "raleway";
-	font-weight: lighter;
+* {
+  margin: 0 0;
+  font-family: "raleway";
+  font-weight: lighter;
 }
 
 @font-face {
-	font-family: "raleway";
-	src: url(./assets/font/Raleway-Regular.ttf);
+  font-family: "raleway";
+  src: url(./assets/font/Raleway-Regular.ttf);
 }
 
 :root {
-	--color-text-button: rgb(207, 9, 193);
+  --color-text-button: rgb(207, 9, 193);
 }
 
+/* my name */
 .container-page {
-	display: flex;
+  display: flex;
+  background-color: rgb(248, 246, 247);
+}
+
+.H1 {
+  margin: auto;
 }
 
 .title {
-	margin: 0;
-	padding: 0;
-	text-align: start;
-	border-bottom: 0;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  border-bottom: 0;
 }
 
 .typewriter-container {
-	display: flex;
-	justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .typewriter-container h1 {
-	font-weight: lighter;
-	font-size: 4em;
-	overflow: hidden;
-	white-space: nowrap;
-	position: relative;
-	animation: typing 3.2s steps(22);
+  font-weight: lighter;
+  font-size: 4em;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 3.2s steps(22);
 
-	@media screen and (max-width: 768px) {
-		font-size: 1.7em;
-	}
+  @media screen and (max-width: 768px) {
+    font-size: 1.7em;
+  }
 }
 
 @keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .typewriter-container h1::after {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 100%;
-	width: 1px;
-	background: black;
-	right: 0;
-	top: 0;
-	animation: cursor 1s infinite;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 1px;
+  background: black;
+  right: 0;
+  top: 0;
+  animation: cursor 1s infinite;
 }
 
 @keyframes cursor {
-	0% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
-	padding: 2% 10% 2% 20%;
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-
-	@media screen and (max-width: 768px) {
-		padding: 1.5em;
-		margin: 0;
-	}
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    padding: 1.5em;
+    margin: 0;
+  }
 }
 
 /* a propos */
 
 .about-container {
-	display: flex;
-	flex-direction: column;
-	gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .container-profil {
-	display: flex;
-	padding: 3em 0;
-	flex-direction: column;
-	gap: 3em;
+  display: flex;
+  padding: 3em 0;
+  flex-direction: column;
 }
 
-.about-list {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 1em;
-}
+.container-text-profil {
+  padding: 5rem 20rem;
+  background-color: white;
 
-ul li {
-	text-decoration: none;
-	text-align: start;
-	font-size: 1.6em;
-	@media screen and (max-width: 768px) {
-		font-size: 1em;
-	}
+  @media screen and (max-width: 768px) {
+    font-size: 1em;
+  }
 }
 
 .text-profil {
-	font-size: 1.6em;
-	padding: 1em;
-	border: 2px solid var(--color-text-button);
-	border-radius: 1em;
-	@media screen and (max-width: 768px) {
-		font-size: 1em;
-	}
+  font-size: 1rem;
+  margin: 2rem 0;
+  @media screen and (max-width: 768px) {
+    font-size: 1em;
+  }
 }
 
 /* skills */
 
 .my_skills-container {
-	display: flex;
-	flex-direction: column;
-	gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 5rem 20rem;
 }
 
 .my_skills-container ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* projets */
 
 .my_projects-container {
-	display: flex;
-	flex-direction: column;
-	gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 5rem 15rem;
+  background-color: white;
 }
 
 .container-video {
-	display: flex;
-	flex-direction: column;
-	gap: 2em;
-	align-items: flex-start;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: flex-start;
+  align-items: center;
 }
 img {
-	width: 4em;
-	@media screen and (max-width: 768px) {
-		width: 2.2em;
-	}
+  width: 4em;
+  @media screen and (max-width: 768px) {
+    width: 2.2em;
+  }
 }
 
 /* contact */
 
 .contact-container {
-	display: flex;
-	flex-direction: column;
-	gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 5rem 15rem;
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
 }
 
+ul li {
+  text-decoration: none;
+  text-align: start;
+  font-size: 1rem;
+  @media screen and (max-width: 768px) {
+    font-size: 1em;
+  }
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
 form {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-	gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5em;
 }
 
 .contact-list {
-	align-items: flex-start;
-	@media screen and (max-width: 768px) {
-		flex-direction: column;
-	}
+  align-items: flex-start;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 h2 {
-	font-size: 3rem;
-	color: var(--color-text-button);
-	text-align: start;
-	border-bottom: 2px solid var(--color-text-button);
-	@media screen and (max-width: 768px) {
-		font-size: 1.7em;
-	}
+  font-size: 3rem;
+  color: var(--color-text-button);
+  text-align: start;
+  border-bottom: 2px solid var(--color-text-button);
+  @media screen and (max-width: 768px) {
+    font-size: 1.7em;
+  }
 }
 
-button {
-	background-color: var(--color-text-button);
-	border: 1px solid var(--color-text-button);
-	border-radius: 1.5em;
-	width: 14em;
-	height: 2.3em;
-	color: white;
-	font-size: 1em;
+/* boutons */
 
-	@media screen and (max-width: 768px) {
-		width: auto;
-		height: 2em;
-	}
+button {
+  background-color: var(--color-text-button);
+  border: 1px solid var(--color-text-button);
+  border-radius: 1.5em;
+  width: auto;
+  padding: 0 1rem;
+  height: 1.8rem;
+  color: white;
+  font-size: 1em;
+
+  @media screen and (max-width: 768px) {
+    width: auto;
+    height: 2em;
+  }
 }
 
 button:hover {
-	background-color: rgb(238, 96, 228);
+  background-color: rgb(238, 96, 228);
 }
 
-ul {
-	display: flex;
-	flex-direction: column;
-	gap: 1.5em;
-	list-style: none;
-	align-items: center;
-	padding: 0;
+.button-cv {
+  margin: auto auto;
+  display: flex;
 }
 
 span {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:hover {
-	color: var(--color-text-button);
+  color: var(--color-text-button);
 }
 
 a:visited {
-	color: var(--color-text-button);
+  color: var(--color-text-button);
+}
+
+.link {
+  color: var(--color-text-button);
 }
