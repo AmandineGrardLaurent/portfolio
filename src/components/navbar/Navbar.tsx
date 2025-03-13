@@ -1,5 +1,5 @@
 import style from "./navbar.module.css";
-import avatar from "../../assets/image/photo_profil.jpg";
+// import avatar from "../../assets/image/photo_profil.jpg";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
