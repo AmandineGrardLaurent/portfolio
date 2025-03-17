@@ -18,6 +18,8 @@
   margin: 0.75em;
   @media screen and (max-width: 768px) {
     margin: 0.4em;
+    font-size: 0.7rem;
+    word-break: break-all;
   }
 }
 
