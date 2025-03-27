@@ -3,7 +3,7 @@ import CardVideo from "./components/cardVideo/CardVideo";
 import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import cvPDF from "./assets/pdf/cvAmandineGrardLaurent.pdf";
+import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT - CV.pdf";
 import skill from "../src/assets/data/skills.json";
 import Skill from "./components/skill/Skill";
 
