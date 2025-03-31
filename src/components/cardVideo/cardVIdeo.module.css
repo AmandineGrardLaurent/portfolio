@@ -1,5 +1,5 @@
 .cardVideo {
-  width: 80%;
+  width: 70%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
@@ -43,7 +43,7 @@ h3 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.2rem;
   @media screen and (max-width: 768px) {
     font-size: 1em;
   }

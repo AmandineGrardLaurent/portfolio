@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT - CV.pdf";
 import skill from "../src/assets/data/skills.json";
 import Skill from "./components/skill/Skill";
+import profil from "./assets/image/photo_profil.jpg";
 
 function App() {
   return (
@@ -14,7 +15,12 @@ function App() {
         <Navbar />
 
         <div className="container">
-          <section className="H1">
+          <section className="banner">
+            <img
+              src={profil}
+              alt="Amandine Grard-Laurent"
+              className="profil-picture"
+            />
             <div className="typewriter-container">
               <div className="typewriter">
                 <h1>Amandine Grard-Laurent</h1>
@@ -48,16 +54,16 @@ function App() {
                   mon objectif. La curiosité pour moi est un atout. L’esprit
                   d’équipe est essentiel.
                 </p>{" "}
-                <a
-                  href={cvPDF}
-                  target="_self"
-                  rel="noopener noreferrer"
-                  download
-                >
-                  <button type="button" className="button-cv">
+                <button type="button" className="button">
+                  <a
+                    href={cvPDF}
+                    target="_self"
+                    rel="noopener noreferrer"
+                    download
+                  >
                     Télécharger le CV
-                  </button>
-                </a>
+                  </a>
+                </button>
               </div>
             </section>
             <section className="my_skills-container">
@@ -110,13 +116,12 @@ function App() {
                       https://www.linkedin.com/in/amandine-grard-laurent-278440305/
                     </a>
                   </li>
-                  <li>
+
+                  <button type="button" className="button-mail">
                     <a href="mailto:a.grard.laurent08@gmail.com">
-                      <button type="button" className="button-mail">
-                        Envoyez-moi un email : ici
-                      </button>
+                      Envoyez-moi un email : ici
                     </a>
-                  </li>
+                  </button>
                 </ul>
               </div>
             </section>

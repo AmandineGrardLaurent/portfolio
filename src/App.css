@@ -21,8 +21,21 @@
   background-color: rgb(248, 246, 247);
 }
 
-.H1 {
-  margin: auto;
+.profil-picture {
+  width: 20%;
+  border-radius: 1rem;
+}
+
+.banner {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 1rem auto;
+  }
 }
 
 .title {
@@ -117,7 +130,8 @@
 }
 
 .text-profil {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  /* text-justify: distribute; */
   margin: 2rem 0;
   @media screen and (max-width: 768px) {
     font-size: 1em;
@@ -148,7 +162,7 @@
   display: flex;
   flex-direction: column;
   gap: 2em;
-  padding: 5rem 15rem;
+  padding: 5rem 20rem;
   background-color: white;
   @media screen and (max-width: 768px) {
     padding: 2rem 3rem;
@@ -175,7 +189,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  padding: 5rem 15rem;
+  padding: 5rem 20rem;
   @media screen and (max-width: 768px) {
     padding: 2rem 3rem;
   }
@@ -191,7 +205,7 @@ img {
 ul li {
   text-decoration: none;
   text-align: start;
-  font-size: 1rem;
+  font-size: 1.4rem;
   @media screen and (max-width: 768px) {
     font-size: 1em;
   }
@@ -228,6 +242,11 @@ h2 {
   }
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* boutons */
 
 button {
@@ -238,9 +257,12 @@ button {
   padding: 0 1rem;
   height: 1.8rem;
   color: white;
-  font-size: 1em;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  margin: auto;
 
-  @media screen and (max-width: 768px) {
+  text: @media screen and (max-width: 768px) {
     width: auto;
     height: 2em;
   }
@@ -248,11 +270,6 @@ button {
 
 button:hover {
   background-color: rgb(238, 96, 228);
-}
-
-.button-cv {
-  margin: auto auto;
-  display: flex;
 }
 
 span {
@@ -265,6 +282,7 @@ a:hover {
 
 a:visited {
   color: var(--color-text-button);
+  text-decoration: none;
 }
 
 .link {
