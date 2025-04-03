@@ -1,8 +1,17 @@
 [
   {
+    "title": "Intra_Sense",
+    "video": "",
+    "concept": "Il s’agit d’une plateforme interne (un intranet) conçue comme un outil de gestion des prises de décisions collaboratives, adapté aux besoins spécifiques d’un environnement associatif.",
+    "composition": "",
+    "evolution": "",
+    "vercel": "",
+    "github": "https://github.com/AmandineGrardLaurent/Intra_Sense"
+  },
+  {
     "title": "Manga_Sphere",
     "video": "/videos/MangaSphere.mp4",
-    "concept": "Ce site est dédié aux passionnés de mangas. Il permet de répertorier tous les tomes et épisodes de chaque anime, de les consulter, de commenter chaque série et de les ajouter aux favoris.",
+    "concept": "Manga_Sphere est dédié aux passionnés de mangas. Il permet de répertorier tous les tomes et épisodes de chaque anime, de les consulter, de commenter chaque série et de les ajouter aux favoris.",
     "composition": "",
     "evolution": "",
     "vercel": "",
@@ -11,25 +20,25 @@
   {
     "title": "Coup de main local",
     "video": "/videos/CoupDeMainLocal.mp4",
-    "concept": "Ce site est basé sur l'entraide en particulier au sein d'un quartier de Bordeaux.",
-    "composition": "On a accès à une page qui liste les commerces, associations, services locaux..., ainsi on peut y retrouver les coordonnées et l'adresse via une page détaillée. Sur une seconde page on peut voir les annonces entre particuliers qui recensent les recherches de services, comme par exemple quelqu'un qui aurait besoin d'aide pour monter un meuble et qui propose en échange un service, un prêt d'objet ou encore un don d'objet. On peut également voir les personnes qui proposent directement un service. Là aussi on peut accéder à une page détaillée. On a la possibilité de faire une recherche par catégorie sur les 2 pages, et via une barre de recherche.",
-    "evolution": "Je souhaite faire évoluer ce site afin que les utilisateurs puissent poster eux-même une annonce ou bien contacter l'adimistrateur via un formulaire pour poster une nouvelle annonce. Je souhaiterais également étendre à plusieurs quartiers de Bordeaux.",
+    "concept": "Ce site est basé sur l'entraide entre particuliers au sein d'un quartier de Bordeaux.",
+    "composition": "On a accès à une page qui liste les commerces, associations, services locaux..., ainsi on peut y retrouver les coordonnées et l'adresse via une page détaillée. Sur une seconde page, on peut voir les annonces entre particuliers qui recensent les recherches de services, comme par exemple quelqu'un qui aurait besoin d'aide pour monter un meuble et qui propose en échange un service, un prêt d'objet ou encore un don d'objet. On peut également voir les personnes qui proposent directement un service. Là aussi on peut accéder à une page détaillée. On a la possibilité de faire une recherche par catégorie sur les deux pages, et via une barre de recherche.",
+    "evolution": "Je souhaite faire évoluer ce site afin que les utilisateurs puissent poster eux-mêmes une annonce ou bien contacter l'administrateur via un formulaire pour poster une nouvelle annonce. Je souhaiterais également étendre à plusieurs quartiers de Bordeaux.",
     "vercel": "",
     "github": "https://github.com/AmandineGrardLaurent/coup-de-main-local"
   },
   {
     "title": "Boarder Line",
     "video": "/videos/BoarderLine.mp4",
-    "concept": "Ce site recense différents jeux de société spécialisés. Vous pouvez consulter le descriptif détaillé de chaque jeux et les mettre dans vos favoris.",
-    "composition": "Il y a une page d'accueil où vous retrouverez deux carrousels de jeux, un pour le top des jeux et un autre qui propose une selection de jeux à découvrir pour les personnes novices. Il y a également un page qui liste l'ensemble des jeux que vous pouvez filtrer. Enfin il y a une page pour afficher vos favoris et une page pour afficher le descriptif complet des jeux. Pour finir vous avez une barre de recherche pour rechercher un jeu.",
-    "evolution": "Je souhaite faire évoluer ce site afin que les utilisateurs puissent poster eux-même une annonce ou bien contacter l'adimistrateur via un formulaire pour poster une nouvelle annonce. Je souhaiterais également étendre à plusieurs quartiers de Bordeaux.",
+    "concept": "Boarder Line recense différents jeux de société spécialisés. Vous pouvez consulter le descriptif détaillé de chaque jeu et les mettre dans vos favoris.",
+    "composition": "Il y a une page d'accueil où vous retrouverez deux carrousels de jeux, un pour le top des jeux et un autre qui propose une sélection de jeux à découvrir pour les personnes novices. Il y a également une page qui liste l'ensemble des jeux que vous pouvez filtrer. Enfin, il y a une page pour afficher vos favoris et une page pour afficher le descriptif complet des jeux. Pour finir vous avez une barre de recherche pour rechercher un jeu.",
+    "evolution": "",
     "vercel": "https://boarder-line-project.vercel.app/",
     "github": "https://github.com/AmandineGrardLaurent/Boarder_Line"
   },
   {
     "title": "Crousti Eats",
     "video": "/videos/CroustiEats.mp4",
-    "concept": "",
+    "concept": "Ce site répertorie quelques adresses de différents restaurants Bordelais.",
     "composition": "",
     "evolution": "",
     "vercel": "https://crousti-eats.vercel.app/",
