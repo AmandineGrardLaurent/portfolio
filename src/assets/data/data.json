@@ -1,8 +1,8 @@
 [
   {
     "title": "Manga_Sphere",
-    "video": "",
-    "concept": "Ce site recense différents mangas, on peut lister tous les tomes et tous les épisodes de chaque animé.",
+    "video": "/videos/MangaSphere.mp4",
+    "concept": "Ce site est dédié aux passionnés de mangas. Il permet de répertorier tous les tomes et épisodes de chaque anime, de les consulter, de commenter chaque série et de les ajouter aux favoris.",
     "composition": "",
     "evolution": "",
     "vercel": "",
