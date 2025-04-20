@@ -1,0 +1,18 @@
+[
+  {
+    "src": "https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor",
+    "alt": "logo javascript"
+  },
+  {
+    "src": "https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor",
+    "alt": "logo express"
+  },
+  {
+    "src": "https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor",
+    "alt": "logo node JS"
+  },
+  {
+    "src": "https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor",
+    "alt": "logo mySQL"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "src": "https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor",
+    "alt": "logo typescript"
+  },
+  {
+    "src": "https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor",
+    "alt": "logo css 3"
+  },
+  {
+    "src": "https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor",
+    "alt": "logo javascript"
+  },
+  {
+    "src": "https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor",
+    "alt": "logo react"
+  },
+  {
+    "src": "https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor",
+    "alt": "logo html 5"
+  }
+]

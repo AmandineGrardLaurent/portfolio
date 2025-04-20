@@ -4,7 +4,8 @@ import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT - CV.pdf";
-import skill from "../src/assets/data/skills.json";
+import skillsFront from "../src/assets/data/skills-front.json";
+import skillsBack from "../src/assets/data/skills-back.json";
 import Skill from "./components/skill/Skill";
 import profil from "./assets/image/photo_profil.jpg";
 
@@ -68,11 +69,22 @@ function App() {
             </section>
             <section className="my_skills-container">
               <h2>SKILLS</h2>
-              <ul>
-                {skill.map((skill) => (
-                  <Skill skill={skill} key={skill.alt} />
-                ))}
-              </ul>
+              <div>
+                <h3>Front-End</h3>
+                <ul>
+                  {skillsFront.map((skill) => (
+                    <Skill skill={skill} key={skill.alt} />
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3>Back-End</h3>
+                <ul>
+                  {skillsBack.map((skill) => (
+                    <Skill skill={skill} key={skill.alt} />
+                  ))}
+                </ul>
+              </div>
             </section>
             <section className="my_projects-container">
               <h2>MES PROJETS</h2>
