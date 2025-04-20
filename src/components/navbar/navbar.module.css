@@ -17,19 +17,10 @@
   }
 }
 
-.profilImg {
-  border-radius: 1em;
-  width: 90%;
-  margin: 1em 1em 2em 1em;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-}
-
 .navbarList {
   display: flex;
   flex-direction: row;
-  gap: 1.5em;
+  gap: 2em;
   list-style: none;
   align-items: center;
   padding: 0;

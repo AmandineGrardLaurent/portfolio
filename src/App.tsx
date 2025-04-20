@@ -24,7 +24,7 @@ function App() {
             <div className="typewriter-container">
               <div className="typewriter">
                 <h1>Amandine Grard-Laurent</h1>
-                <h2 className="title">DEVELOPPEUR WEB</h2>
+                <h2 className="title">Développeur Web</h2>
               </div>
             </div>
           </section>

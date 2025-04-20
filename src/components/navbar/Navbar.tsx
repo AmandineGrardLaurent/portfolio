@@ -5,11 +5,6 @@ import { Link } from "react-scroll";
 export default function Navbar() {
   return (
     <nav className={style.navbar}>
-      {/* <img
-				src={avatar}
-				alt="Amandine Grard-Laurent"
-				className={style.profilImg}
-			/> */}
       <ul className={style.navbarList}>
         <li>
           <Link
