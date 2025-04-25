@@ -27,12 +27,12 @@ export default function CardVideo({ card }: { card: CardType }) {
       )}
       <div className={style.containerText}>
         {card.concept && (
-          <p>
+          <p className={style.description}>
             <span>Le concept</span> : {card.concept}.
           </p>
         )}
         {card.evolution && (
-          <p>
+          <p className={style.description}>
             <span>Son évolution</span> : {card.evolution}
           </p>
         )}
