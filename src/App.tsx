@@ -3,7 +3,7 @@ import CardVideo from "./components/cardVideo/CardVideo";
 import cards from "./assets/data/data.json";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT - CV.pdf";
+import cvPDF from "./assets/pdf/Amandine GRARD-LAURENT - Curriculum Vitae.pdf";
 import skillsFront from "../src/assets/data/skills-front.json";
 import skillsBack from "../src/assets/data/skills-back.json";
 import Skill from "./components/skill/Skill";
@@ -35,26 +35,33 @@ function App() {
               <div className="container-text-profil">
                 <h2>A PROPOS</h2>
                 <p className="text-profil">
-                  Je viens de terminer ma formation de développeur web à la Wild
-                  Code School, aboutissant au titre professionnel RNCP de
-                  "Développeur Web et Web Mobile", équivalent Bac+2. Mon passage
-                  du titre aura lieu au mois d'avril 2025. Afin d'étendre mes
-                  connaissances et mes compétences, je souhaite poursuivre ma
-                  formation en alternance. Je suis à la recherche d'un stage qui
-                  pourra débuter le 21 avril afin d'aboutir à un contrat
-                  d'alternance au mois de septembre pour la formation de
-                  "Concepteur Développeur d'Applications". Je recherche dans la
-                  région bordelaise/médoc. Le contrat d'alternance sera sur une
-                  durée de 15 mois, au rythme d'une semaine de formation pour
-                  trois semaines en entreprise, et il débutera en septembre
-                  2025.
+                  Développeuse web passionnée, diplômée de la Wild Code School,
+                  j’ai récemment passé le titre professionnel RNCP «
+                  Développeuse Web et Web Mobile » (Bac+2) et j’attends les
+                  résultats courant avril 2025. Forte d’expériences variées en
+                  stage, notamment chez Leboncoin, Adista et IOAyoub, j’ai pu
+                  consolider mes compétences en développement front-end (HTML,
+                  CSS, JavaScript, React, Next.js) et back-end (Node.js,
+                  Express.js, MySQL), ainsi qu’en gestion de projet Agile/Scrum.
+                  <br />
+                  <br />
+                  Toujours curieuse d’apprendre et motivée par les nouveaux
+                  défis, je souhaite poursuivre mon parcours en alternance pour
+                  devenir Conceptrice Développeuse d’Applications à la rentrée
+                  2025 (septembre/octobre, selon les écoles). Je suis disponible
+                  dès le 21 avril pour un stage de pré-embauche dans la région
+                  de Bordeaux ou du Médoc, avec l’objectif d’intégrer une équipe
+                  dynamique et innovante.
+                  <br />
+                  <br />
+                  Organisée, créative et déterminée, je m’investis pleinement
+                  dans chaque projet, en mettant l’accent sur la qualité,
+                  l’esprit d’équipe et la satisfaction utilisateur. Mon parcours
+                  atypique, entre artisanat et web, m’a permis de développer une
+                  grande capacité d’adaptation, une sensibilité créative et un
+                  vrai goût pour la collaboration.
                 </p>
-                <p className="text-profil">
-                  Organisée, autonome, créative et déterminée je sais m’adapter
-                  rapidement et efficacement à mon environnement pour atteindre
-                  mon objectif. La curiosité pour moi est un atout. L’esprit
-                  d’équipe est essentiel.
-                </p>{" "}
+
                 <button type="button" className="button">
                   <a
                     href={cvPDF}
