@@ -136,7 +136,7 @@ function App() {
                     </a>
                   </li>
 
-                  <button type="button" className="button-mail">
+                  <button type="button">
                     <a href="mailto:a.grard.laurent08@gmail.com">
                       Envoyez-moi un email : ici
                     </a>

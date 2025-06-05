@@ -253,6 +253,9 @@ h2 {
 a {
   color: white;
   text-decoration: none;
+  @media screen and (max-width: 768px) {
+    /* font-size: 0.8em; */
+  }
 }
 
 /* boutons */
@@ -270,9 +273,10 @@ button {
   align-items: center;
   margin: auto;
 
-  text: @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: auto;
     height: 2em;
+    font-size: 1em;
   }
 }
 
