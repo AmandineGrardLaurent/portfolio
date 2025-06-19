@@ -81,7 +81,6 @@
 }
 
 .typewriter-container h1::after {
-  content: "";
   position: absolute;
   display: block;
   height: 100%;
