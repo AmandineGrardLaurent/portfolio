@@ -49,27 +49,27 @@ function App() {
                   un bijou ou débuguer une application (et parfois, ça brille
                   dans les deux cas !). Pendant ma formation, j’ai travaillé sur
                   des projets front-end (HTML, CSS, JavaScript, React) et
-                  back-end (Node.js, Express.js, MySQL), en mode Agile/Scrum.
-                  Mon stage chez IOAyoub m’a permis de découvrir Next.js et
-                  Tailwind CSS, et de mettre les mains dans le code sur des
-                  projets concrets.
+                  back-end (Node.js, Express.js, MySQL), avec la méthode
+                  Agile/Scrum. Mon stage chez IOAyoub m’a permis de découvrir
+                  Next.js et Tailwind CSS, et de mettre les mains dans le code
+                  sur des projets concrets.
                   <br />
                   <br />
                   Toujours partante pour relever de nouveaux défis, j’adore
                   explorer, apprendre, et apporter des solutions originales. Je
                   m’investis à 100 % dans chaque projet, avec une bonne dose de
                   bonne humeur, un esprit d’équipe solide, et l’envie de faire
-                  plaisir à l’utilisateur final. Mon objectif : rejoindre une
-                  équipe dynamique et innovante, continuer à progresser,
-                  partager mon enthousiasme et, qui sait, glisser une touche
-                  créative (et un sourire) dans chaque ligne de code.
+                  plaisir à l’utilisateur. Mon objectif : rejoindre une équipe
+                  dynamique et innovante, continuer à progresser, partager mon
+                  enthousiasme et, qui sait, glisser une touche créative (et un
+                  sourire) dans chaque ligne de code.
                   <br />
                   <br />
                   Bienvenue sur mon portfolio : ici, pas de discours formaté,
                   juste mes projets, mes compétences, et un aperçu de mon
                   univers. Si vous aimez les profils atypiques, les idées
-                  originales et les blagues (presque) toujours à propos, on
-                  devrait bien s’entendre !
+                  originales et la bonne humeur avec un peu d'humour, on devrait
+                  bien s’entendre !
                   <br />
                   <br />
                   Au plaisir d’échanger et de construire ensemble de belles
