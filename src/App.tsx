@@ -35,10 +35,18 @@ function App() {
               <div className="container-text-profil">
                 <h2>A PROPOS</h2>
                 <p className="text-profil">
-                  Développeuse web passionnée et curieuse, j’ai troqué ma pince
-                  à bijoux pour un clavier, après plusieurs années à façonner
-                  des créations uniques en tant qu’artisane joaillière. Diplômée
-                  de la Wild Code School, j’ai récemment validé le titre
+                  Bienvenue sur mon portfolio : ici, pas de discours formaté,
+                  juste mes projets, mes compétences, et un aperçu de mon
+                  univers. Si vous aimez les profils atypiques, les idées
+                  originales et la bonne humeur avec un peu d'humour, on devrait
+                  bien s’entendre !
+                  <br />
+                  <br />
+                  Je m'appelle Amandine et je suis une développeuse web
+                  passionnée et curieuse, j’ai troqué ma pince à bijoux pour un
+                  clavier, après plusieurs années à façonner des créations
+                  uniques en tant qu’artisan bijoutière joaillière. Diplômée de
+                  la Wild Code School, j’ai récemment validé le titre
                   professionnel RNCP « Développeuse Web et Web Mobile » (Bac+2)
                   et je poursuis désormais mon aventure en alternance au CESI de
                   Bordeaux pour devenir Conceptrice Développeuse d’Applications.
@@ -63,13 +71,6 @@ function App() {
                   dynamique et innovante, continuer à progresser, partager mon
                   enthousiasme et, qui sait, glisser une touche créative (et un
                   sourire) dans chaque ligne de code.
-                  <br />
-                  <br />
-                  Bienvenue sur mon portfolio : ici, pas de discours formaté,
-                  juste mes projets, mes compétences, et un aperçu de mon
-                  univers. Si vous aimez les profils atypiques, les idées
-                  originales et la bonne humeur avec un peu d'humour, on devrait
-                  bien s’entendre !
                   <br />
                   <br />
                   Au plaisir d’échanger et de construire ensemble de belles
