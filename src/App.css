@@ -158,18 +158,6 @@ blockquote {
   font-size: 1.25rem;
 }
 
-blockquote::before {
-  content: "“";
-  position: absolute;
-  left: 14px;
-  top: 8px;
-  font-size: 3em;
-  color: var(--color-text-button);
-  opacity: 0.2;
-  font-family: serif;
-  line-height: 1;
-}
-
 blockquote cite {
   display: block;
   margin-top: 1em;
