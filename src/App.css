@@ -146,6 +146,51 @@
   }
 }
 
+blockquote {
+  font-style: italic;
+  color: #6a166a;
+  border-left: 6px solid var(--color-text-button);
+  background: #f8eafd;
+  padding: 1.2em 2em 1.2em 2.5em;
+  margin: 2em 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(207, 9, 193, 0.06);
+  position: relative;
+  font-family: "raleway", "montserrat", sans-serif;
+  font-size: 1.25rem;
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  font-size: 3em;
+  color: var(--color-text-button);
+  opacity: 0.2;
+  font-family: serif;
+  line-height: 1;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 1em;
+  text-align: right;
+  color: var(--color-text-button);
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  blockquote {
+    font-size: 1em;
+    padding: 1em 1em 1em 2em;
+  }
+}
+
 /* skills */
 
 .my_skills-container {
@@ -288,10 +333,6 @@ span {
   text-decoration: underline;
 }
 
-a:hover {
-  color: var(--color-text-button);
-}
-
 a:visited {
   color: var(--color-text-button);
   text-decoration: none;
@@ -299,4 +340,10 @@ a:visited {
 
 .link {
   color: var(--color-text-button);
+}
+
+.container-text-profil,
+.my_skills-container,
+.my_projects-container {
+  box-shadow: 0 4px 24px rgba(207, 9, 193, 0.1);
 }

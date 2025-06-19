@@ -1,14 +1,5 @@
+import { CardType } from "../../lib/definitions";
 import style from "./cardVIdeo.module.css";
-
-type CardType = {
-  title: string;
-  video: string;
-  concept: string;
-  composition: string;
-  evolution: string;
-  vercel: string;
-  github: string;
-};
 
 export default function CardVideo({ card }: { card: CardType }) {
   return (
