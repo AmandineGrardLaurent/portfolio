@@ -51,9 +51,10 @@ function App() {
                   et désormais je suis à la recherche d’une entreprise d’accueil
                   pour une alternance en tant que développeur, à partir
                   d’octobre, dans le cadre de ma formation au CESI de Bordeaux
-                  dans laquelle j'ai été admise. Celle-ci se déroule selon un
-                  rythme d'une semaine à l’école et trois semaines en entreprise
-                  et pour une durée d'un an.
+                  dans laquelle j'ai été admise, le bachelor concepteur
+                  développeur d'applications (bac+3). Celle-ci se déroule selon
+                  un rythme d'une semaine à l’école et trois semaines en
+                  entreprise et pour une durée d'un an.
                   <br />
                   <br />
                   Entre artisanat et développement web, j’ai appris à allier
