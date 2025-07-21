@@ -48,14 +48,12 @@ function App() {
                   uniques en tant qu’artisan bijoutière joaillière. Diplômée de
                   la Wild Code School, j’ai récemment validé le titre
                   professionnel RNCP « Développeuse Web et Web Mobile » (Bac+2)
-                  et je poursuis désormais mon aventure en alternance au CESI de
-                  Bordeaux pour devenir Conceptrice Développeuse d’Applications.
-                  je suis à la recherche d’une entreprise d’accueil pour une
-                  alternance en tant que conceptrice développeuse
-                  d'applications, à partir d’octobre, dans le cadre de ma
-                  formation au CESI de Bordeaux. Celle-ci se déroule selon un
-                  rythme d'une semaine à l’école et trois semaines en
-                  entreprise.
+                  et désormais je suis à la recherche d’une entreprise d’accueil
+                  pour une alternance en tant que développeur, à partir
+                  d’octobre, dans le cadre de ma formation au CESI de Bordeaux
+                  dans laquelle j'ai été admise. Celle-ci se déroule selon un
+                  rythme d'une semaine à l’école et trois semaines en entreprise
+                  et pour une durée d'un an.
                   <br />
                   <br />
                   Entre artisanat et développement web, j’ai appris à allier
