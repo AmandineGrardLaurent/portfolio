@@ -50,6 +50,12 @@ function App() {
                   professionnel RNCP « Développeuse Web et Web Mobile » (Bac+2)
                   et je poursuis désormais mon aventure en alternance au CESI de
                   Bordeaux pour devenir Conceptrice Développeuse d’Applications.
+                  je suis à la recherche d’une entreprise d’accueil pour une
+                  alternance en tant que conceptrice développeuse
+                  d'applications, à partir d’octobre, dans le cadre de ma
+                  formation au CESI de Bordeaux. Celle-ci se déroule selon un
+                  rythme d'une semaine à l’école et trois semaines en
+                  entreprise.
                   <br />
                   <br />
                   Entre artisanat et développement web, j’ai appris à allier
